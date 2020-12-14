@@ -1,0 +1,22 @@
+{
+    "name": "kasferreira/basic-auth",
+    "description": "Basic-Auth package from Convergence Works",
+    "authors": [
+        {
+            "name": "Lucas Ferreira",
+            "email": "ferrlucs@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "KasFerreira\\BasicAuth\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "KasFerreira\\BasicAuth\\BasicAuthServiceProvider"
+            ]
+        }
+    }
+}
